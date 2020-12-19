@@ -1,0 +1,17 @@
+{
+    "controllerPathGlobs": [
+		"./src/task.controller.ts"
+    ],
+    "spec": {
+        "outputDirectory": "."
+      },
+    "swagger": {
+        "outputDirectory": ".",
+        "entryFile": "./src/app.ts"
+    },
+    "routes": {
+        "basePath": "/",
+        "entryFile": "./src/app.ts",
+        "routesDir": "./src"
+    }
+}
