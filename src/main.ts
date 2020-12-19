@@ -1,6 +1,5 @@
 import { app } from './app';
 import * as http from 'http';
-import { MongoHelper } from './mongo.helper';
 import * as mongoose from 'mongoose';
 
 const PORT = 8080;
